@@ -16,11 +16,11 @@
 	<body>
 		<!-- Header -->
 
-		<header>
+		<header class="main-header">
 			<!-- Desktop -->
 
-			<nav>
-				<ul>
+			<nav class="desktop">
+				<ul class="list-reset">
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Experience</a></li>
 					<li><a href="#">Education</a></li>
@@ -32,14 +32,16 @@
 
 			<!-- Mobile -->
 
-			<nav>
-				<div>
-					<a href="#">Home</a>
-					<a href="#">Experience</a>
-					<a href="#">Education</a>
-					<a href="#">Contact</a>
+			<nav class="mobile">
+				<div class="top-nav">
+					<div id="myLinks">
+						<a href="#">Home</a>
+						<a href="#">Experience</a>
+						<a href="#">Education</a>
+						<a href="#">Contact</a>
+					</div>
+					<a href="#" class="icon"><i class="fa-solid fa-bars"></i></a>
 				</div>
-				<a href="#"><i class="fa-solid fa-bars"></i></a>
 			</nav>
 
 			<!-- Mobile end -->
@@ -49,9 +51,9 @@
 
 		<!-- Main Title -->
 
-		<div>
-			<a href="#">Curriculum Vitae</a>
-			<p>E. Winters</p>
+		<div class="main-title">
+			<a href="#" class="main-title__heading">Curriculum Vitae</a>
+			<p class="main-title__owner">E. Winters</p>
 		</div>
 
 		<!-- Main Title End -->
@@ -59,26 +61,41 @@
 		<!-- Main -->
 		<main>
 			<!-- Content -->
-			<section>
-				<h3>Evelyn Winters // Event Planner</h3>
-				<div>
+			<section class="main-content">
+				<div class="main-content__heading">
+					<div class="line"></div>
+					<h3>Evelyn Winters // Event Planner</h3>
+				</div>
+
+				<div class="main-content__image">
 					<img src="images/face.jpg" alt="Profile Picture" />
 				</div>
 				<div>
-					<p><strong>Phone</strong> 123-456-789-0</p>
-					<p><strong>Email</strong> email@example.com</p>
-					<p><strong>Adress</strong> Main street, New York</p>
-					<p><strong>Date of Birth</strong> June 18th, 1987</p>
+					<p class="main-content__desc">
+						<strong class="main-content__info">Phone</strong> 123-456-789-0
+					</p>
+					<p class="main-content__desc">
+						<strong class="main-content__info">Email</strong> email@example.com
+					</p>
+					<p class="main-content__desc">
+						<strong class="main-content__info">Address</strong> Main street, New
+						York
+					</p>
+					<p class="main-content__desc">
+						<strong class="main-content__info">Date of Birth</strong> June 18th,
+						1987
+					</p>
 				</div>
 				<div>
-					<p>
-						" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-						reiciendis quam id possimus doloremque dicta molestiae reprehenderit
-						porro, veniam quidem vero delectus et deserunt provident quas quia!
-						Adipisci est dignissimos tempora tempore odit, quia molestias
-						repellendus neque, expedita voluptatum quibusdam nostrum, blanditiis
-						voluptatem eos similique! Doloribus veritatis atque odio quaerat!" -
-						Levis Carrol, Alice in Wonderland
+					<p class="main-content__description">
+						<strong>"</strong> Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ad reiciendis quam id possimus doloremque dicta
+						molestiae reprehenderit porro, veniam quidem vero delectus et
+						deserunt provident quas quia! Adipisci est dignissimos tempora
+						tempore odit, quia molestias repellendus neque, expedita voluptatum
+						quibusdam nostrum, blanditiis voluptatem eos similique! Doloribus
+						veritatis atque odio quaerat!
+						<strong>" - Levis Carrol, Alice in Wonderland</strong>
 					</p>
 				</div>
 			</section>
@@ -87,8 +104,11 @@
 
 			<!-- About  -->
 
-			<section>
-				<h3>Hi there! I'm Evelyn</h3>
+			<section class="about">
+				<div class="about__title">
+					<div class="line"></div>
+					<h3>Hi there! I'm Evelyn</h3>
+				</div>
 				<p>
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus eaque
 					impedit alias beatae, sit temporibus excepturi quos ratione ullam
@@ -100,9 +120,9 @@
 
 			<!-- Regards -->
 
-			<section>
+			<section class="regards">
 				<p>With best regards</p>
-				<h2>Evelyn</h2>
+				<h2 class="regards__sign">Evelyn</h2>
 			</section>
 
 			<!-- Regards End -->
@@ -112,7 +132,7 @@
 
 		<!-- Aside -->
 
-		<aside>
+		<aside class="aside">
 			<h4>Stay in contact</h4>
 			<div>
 				<img src="images/facebook.png" alt="Facebook" />
