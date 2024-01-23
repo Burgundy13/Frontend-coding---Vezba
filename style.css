@@ -174,3 +174,34 @@ a {
 .aside {
 	display: none;
 }
+
+.main-footer {
+	text-align: center;
+}
+
+.main-footer .main-footer__title h4 {
+	font-size: 22px;
+	font-weight: 400;
+	color: #000;
+	letter-spacing: 0.3px;
+	font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+}
+
+.main-footer .main-footer__title p {
+	color: #9c9c9c;
+	margin-bottom: 15px;
+}
+
+.main-footer .main-footer__visitors,
+.main-footer .main-footer__counter {
+	display: none;
+}
+
+.main-footer .main-footer__info {
+	border-top: 1px solid #000;
+	color: #9c9c9c;
+	text-transform: uppercase;
+	margin: 20px 0;
+	font-size: 16px;
+	padding-top: 20px;
+}
